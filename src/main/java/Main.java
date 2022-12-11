@@ -42,8 +42,8 @@ public class Main {
 
 //        Пошук усіх користувачів метод createNativeQuery("select * from user", User.class).list(); + створення колекції
 
-        List<User> list = session.createQuery("select u from User u", User.class).list();
-        System.out.println(list);
+//        List<User> list = session.createQuery("select u from User u", User.class).list(); xpl синтаксис
+//        System.out.println(list);
 
 
 
